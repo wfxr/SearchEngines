@@ -1,10 +1,12 @@
 SearchEngines
 =============
-Search Engines I often use.
-Mainly used for Firefox.
+Search Engines I often use. (Mainly used for Firefox.)
 
-These files should be placed at
+Files should be placed at 
 
-	/usr/lib/firefox/distribution/searchplugins/locale/en-US
+	For Ubuntu:
 
-in Ubuntu.
+		/usr/lib/firefox/distribution/searchplugins/locale/en-US/
+
+	For Windows:
+		(FIREFOX_INSTALL_PATH)/browser/searchplugins/
