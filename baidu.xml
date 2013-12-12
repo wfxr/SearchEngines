@@ -1,0 +1,19 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Baidu</os:ShortName>
+<os:Description>Baidu</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABWUlEQVQ4jaWSy0sCURjF/XfuRugukha1CzeBCBKIFFFIBEGrCoRwE4EErlskoYW0EFy0iBAkCMFNBCGuKrqjNg6OgzOTjY+5nhbh3ehMrw/O8vud73E8hDL8Rx5CGf5ajoBCsQuvT0IubwIATk51xA/bsPkPAdFtBYQyLIXeUCpbYtybQtcd0Na+LHb2WiCUYTXaRC5vCsBdyXIG3D/0QCjD2qaCl9cB9g9UPFb66OgcuzEVmayBpmKjVLamAxJJTTg9PQ+mHm1+sQ5CGS4ujUlAJmuAUIaZOQkdnaNS7SMYlhGKyKjVh7B6I2EQi6uTAJsDV9fvqFT7YNIQsws10eAPNNDWODa2FHh9Eoq3H85faKk2/IHGRGCWV2RYvZH7Fzo6n9o8VmS9CcPkzoBUWv82umfnhjNgfEg3pdK6M8AwuUihP9DA0bGGRFJDMCyLYLmu8NsSgP/oExgMERjFwInkAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>http://www.baidu.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.baidu.com/s">
+  <os:Param name="wd" value="{searchTerms}"/>
+  <os:Param name="rsv_bp" value="0"/>
+  <os:Param name="ch" value=""/>
+  <os:Param name="tn" value="baidu"/>
+  <os:Param name="bar" value=""/>
+  <os:Param name="rsv_spt" value="3"/>
+  <os:Param name="ie" value="utf-8"/>
+  <os:Param name="rsv_sug3" value="1"/>
+  <os:Param name="rsv_sug1" value="1"/>
+  <os:Param name="rsv_sug4" value="57"/>
+</os:Url>
+</SearchPlugin>

@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Nuomi</os:ShortName>
+<os:Description>Nuomi</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABvklEQVQ4jZ2TyU6aUQBG7xuw7FLTtDYaccCpKCjiXGIqltAQg1XiBIIjcQgxDg/ga3TTRzBxyaK7mtpKwTZqUMovgooQRY6Ln0QojRJu8m3P+e53c4UQQsSc2xQTIYQQUpWV9K7/6ewckPrylcTWZ6IDHsIaO99edONVaBFSlRUAPmwCkB7cAOC238NTZ6/E8H9AamANgKRhhZveJa66FojpZwEIt9g5eztOsMGWBVDKgLRxPcd807tUYAOlvMGjeTVjXgQg0uZE0jgAOG2wcawayb9CetefZ4jp54i0uQAIqScBOFF9AuCw0vIPYMdH0rAKwHW3m5h+jgvdDJLGQUg9QbBxDICjaiuHlRb85eb8ERN9ywBcdswDcK51FLZBRDUKQLzHDcCFbgaAv82TnDaOcVIn3/m30kKgwoyvzMTPV8ZHQFQ9IZs7FwCQWqflwTK1n21w2e6E5B1RXeatm6fkwerlZn+UQwD8emMCYP/l+1xA/J0bUvectzoBOGsaB+C4dhiAQMVHAA5eGwH4XtqfC0gOeoi0uwi32AEI1ts4qhnOM//IMucAboc22SsxFBWvQiv/SK9CSzERQogHWwLyJwUp4jwAAAAASUVORK5CYII=</os:Image>
+<SearchForm>http://www.nuomi.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.nuomi.com/search">
+  <os:Param name="k" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

@@ -1,0 +1,13 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Dangdang</os:ShortName>
+<os:Description>Dangdang</os:Description>
+<os:InputEncoding>gbk</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABvElEQVQ4jXWTW3LbMAxFwTr7jCgvIBOLrLsW8yHLXUJNenMhTj8oyfFMqxkMKfDidQHIWBbGOmPrjL1fGWtmKDdsXbAldakLQ7kx1oy9X7F1ZqwzY1mQY5mBRkMBoPH/r22HAo1jmRFbF5rCIThMdEicdqREh0S3W0ucMNFxCI6mYOuCDCUDYILHBI/E8+qgIReHXNzzP553HMBQMmIfERQkOCR177qmacIZE840FKVnKckhwYGCfURkKNceQUE3JhqgYOIJE0+sHlE6ZgMN5YqMdYamSPZImJDo+RF/IfFj50Dix6pbMdlDU8Y6I7ZkFJA4IXEj0iHphMRzl3R6fYsTCtiSO4lKT/lrPZXnfesugKoi+YREj25tHGpa6+3eTfC8XXoUSe4fWXlMOIPyjQMFyacOTL6D0k/Mbtx52R1lj+oXtnOQ9tniNeOuV93nAAWJn0jyvY0lrYOkIKlHM+nZDYl+12+lHMI2rSuJdishfvb0guNtM44euXReTOrOJE1ImFYOcm8jCvqN8W1ZdJX+/loctF7CtrZjWXi/J94ffVXt/crx/puxLNiSsY+MLZmhZMY/N8Z7xtaFv8NE6qo6FMGyAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>http://www.dangdang.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://search.dangdang.com/">
+  <os:Param name="key" value="{searchTerms}"/>
+  <os:Param name="SearchFromTop" value="1"/>
+  <os:Param name="suggestsearchkey_btn" value=""/>
+  <os:Param name="catalog" value=""/>
+</os:Url>
+</SearchPlugin>

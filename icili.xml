@@ -1,0 +1,9 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>iCiLi</os:ShortName>
+<os:Description>iCiLi</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA60lEQVQ4je2RMUoDQRSGvz4pphmYYwyu0xnYQkjpphgM2XYPYGEh9jaLkECOkGIJhGVO4FY2Epyj5AjPKjKublLYWPjgax4/P4/3wf9gQVWQV5B7sABKKWWMyU+htbYAVJDvQfYgYTyK3hfWGJNnWSancM5F7wuLBxvGo/h+eSGxvJXQNl1aMJlcSbmYf+Px4V5C23QopdR0en23225kt90c1st6lRaUi7m8vb4cQtt0fdbLekUaPp7VLwht0w0+8afw3yqYzW7kuX6KgxrPFZzVqLW2zrmYqkl3Q3xqBPC+sF/U9HZDHLO/mg/kXvxQ3w766QAAAABJRU5ErkJggg==</os:Image>
+<SearchForm>http://www.icili.com/emule/</SearchForm>
+<os:Url type="text/html" method="POST" template="http://www.icili.com/emule/search/">
+</os:Url>
+</SearchPlugin>

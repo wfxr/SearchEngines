@@ -1,0 +1,13 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>ZOL</os:ShortName>
+<os:Description>ZOL</os:Description>
+<os:InputEncoding>gbk</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACpUlEQVQ4jW2SXUiTYRiGn5catZn7Ia251cpZmPnDtzJtSSwIEUsrozLIg9mBEoKlERSjSDNEkkjNg1CkEoXA8iA1QsMihYLREPIgqFxZIyjCAxPq5OpgH59ZPXCfvdcFz/vcIn/Nd2Z4TJAB0ulB0YNigHTGCPKdGf5+LyIiBYEW/IdqqRwO0ImiH8V9FCOIkfu67B47ucV2Qs+6F2W5eS0oqUFJDWZbNb6yEio787n9wU0YIYww9oekFUVeBYsCjy9oCJYtq2elrRlLUi927yie3EmmWLVEUn63CU9AF3wkQoq/1BCYLI1YVndhXfcQe+or+p4X8A1hGmES4cbXbDwBcOXPxf/kNpWk+EsRqcJkacTsaMfqHsCRNkHx6TZmEaK6YAgb2eWfceXPsSbnDUPUIU34SPGXYjKHDNjuHcXjf8k4iYR1eAzheEeLAa9On6ANH1IxJ7h2l2N2tJPoiu+dnDlNaCrAiA6OIbTO+nH75w3YtmGQcyjkyCfBveekASdlRCi6fp4e/Zz9KO5gY+vhaZy+dwac4OymFoWcfLuRdYX1BpxW/IKLWGlF0amnuKMBpxZbAq+0NdOED7kZPcP6oiskZURwajGOvdzBORQhFJdRVM/k4dRiJGVEsKeOkODsxmxvZfmKs3T9DCKxhSiefR04tRjbLlylYk6omlfUojj1w4p3X4TkzGns3lESXb0GLFLFRyLxLmQdHCf14AsKw8KB18LR94oTMYVW30Fy1nscaRNY3QOYHe2YzCGU1CBStdjEsupf5HRupeCRsOeJsHdC2P9KKHqylrxrATZXVOPY0oTJ0mgULi7RJ+vYF7Q+QesTtj8Q8gdliawwHM+uwUQ21aWzq6ReX+M/E1uIcmkyyPFhzRCeeKrRMBUkthD9B/oNptr9kVRIIeIAAAAASUVORK5CYII=</os:Image>
+<SearchForm>http://www.zol.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.zol.com/index.php">
+  <os:Param name="c" value="List"/>
+  <os:Param name="Z_search_type" value="1"/>
+  <os:Param name="keyword" value="{searchTerms}"/>
+  <os:Param name="do_search" value=""/>
+</os:Url>
+</SearchPlugin>

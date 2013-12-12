@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Suning</os:ShortName>
+<os:Description>Suning</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABUklEQVQ4jbXTPUtCYRTA8QeagsApaO0DNAmBH6CpNegDtLZJFyG0GzRFQxAEklAILm1CEDUFRtf0Ym/4lkhWkJmKpqmpt/tv0CS1LHs5cJbDc37PeQ48QsgqP06zB/H3wJzSyO/U24DmgbdoNXxW7wT6jY+f8O5Gg9WH3ZvC7k1hsPoQkoKw+nvvoFc8PNWY3Ip+sUTJi5AUhhZV8hUNAJMjjGXvFgBnIN2YxOLtBgZsfq5zzxSrGvPNhpO7EkJWW4DrNEO2VOcg/tgNTLtiAKwpKWKZCgAz7kQXEMtUCN6XOwCbn6NEAe1FZ9Z9BUC2XGdwKYBYULHtN4DNQJrjmyLJQq0dMDnCALgjOXYjOQCWD5MISWFYVjlPlgCYcF6yE81T1fR2YGTlDKM9xPhGA9J0nbH1INlyHYDzVJmp7ThCVhldvcBoD/3nX+gbMHv4Tb4CHHy5PP9bXW4AAAAASUVORK5CYII=</os:Image>
+<SearchForm>http://www.suning.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.suning.com/">
+  <os:Param name="homepage_toubu_sous12" value=""/>
+</os:Url>
+</SearchPlugin>

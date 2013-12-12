@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Jingdong</os:ShortName>
+<os:Description>Jingdong</os:Description>
+<os:InputEncoding>gbk</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAy0lEQVQ4jc3TIQqEUBDGcS/hBcQDyB5gwWyxvmI1bdxL2IxbtlpeNngCwbBgEAxbVFgwiDaD8N/0BEVYXIsDX5wfzDCjpbrBkWjnA16XK4UrSHWDwhWLZKb1G2iCEIBUN1jX1A80QbgPUA257dDFCQCfx3M/oKKQv4HS8wHmPe0GClccA963OwC57WwDXZww9cMmkJkWY1UzVvVyB5lpUXo+bSQBaCM5A20kKVxBE4SMVQ1A6flLQM019QNtJOeDWVcXJ/PsJ/6FvfkCxwFl51kLjdoAAAAASUVORK5CYII=</os:Image>
+<SearchForm>http://search.jd.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://search.jd.com/Search">
+  <os:Param name="keyword" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>
